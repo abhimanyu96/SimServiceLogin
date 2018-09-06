@@ -1,0 +1,24 @@
+
+
+
+server:
+  port: 4041
+  servlet:
+    context-path: /demo
+spring:
+  
+  datasource:
+    password: asdfghjkl
+    url: jdbc:mysql://localhost:3306/world
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+
+
+  
+  
